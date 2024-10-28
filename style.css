@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+header {
+    background-color: black;
+    background-image: url(https://s3-alpha-sig.figma.com/img/026b/441a/88dfc0194633755f033f7f553dfded55?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c609tn~DCW~CT2tbpWmgy~LEiq6pfCXUw0DTMHyhW-FuV-FCGQrg~Jpwn2f95vBM7zDeIW-qKwyWOlrvNyyGChM6RY1NmFa1kHXcI9hgdduxWmGtBF7bEEyPiHALIflTWTk34o4b~zNyssAx716uY~qV~q5NksxB92LycYMG2hwzziClKAc6nepHo-dIYA9i~HsMq3d05sVkrM6kGGI-qyvNx1akCF3CHWyzXl93ATsFpqiCpg9lcOCAeXcAQxgvP4za0UFVoFU6O8wgY~zsYKHLmnlU~qrD-QeUxW~~nyJjY9z3W0DRI6hrzf43Gtxjn~-IimcKr74BHJE30IcyPA__);
+    background-size: cover;
+    height: 720px;
+}
+.parents-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: black;
+}
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    margin-right: 50px;
+}
+.header-right button {
+    width: 180px;
+    height: 70px;
+    background-color: #F1A900;
+    font-weight: 700;
+    font-size: 15px;
+}
+.parent-header {
+    background-color: #222222;
+    height: 44px;
+    padding: 0 300px;
+}
+ul {
+    background-color: #222222;
+    height: 40px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.parents-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 325px;
+}
+.pc,
+.console {
+    width: 235px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.pc {
+    background-color: #F1A900;
+}
+.console {
+    background-color: black;
+    color: white;
+}
+.returns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.returns button {
+    background-color: #f1a900a8;
+    height: 202px;
+    width: 966px;
+    font-size: 40px;
+}
+
+.parents-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: black;
+}
+.footer-right {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 50px;
+}
